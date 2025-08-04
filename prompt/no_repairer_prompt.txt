@@ -1,0 +1,2 @@
+Out put a SMILES string only!
+Input a SMILES string to you, and your task is to output this SMILES string.

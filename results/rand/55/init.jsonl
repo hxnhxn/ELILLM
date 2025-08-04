@@ -1,0 +1,142 @@
+{"smiles": "O=C(O)P(=O)(O)O", "label": "0", "score": "-3.8"}
+"\n"
+{"smiles": "C=C(CCCO)CC[C@H](O)CCC", "label": "0", "score": "-3.5"}
+"\n"
+{"smiles": "COc1cc(N)c(C(=O)O)cc1OC", "label": "0", "score": "-2.3"}
+"\n"
+{"smiles": "O=C(O)c1ccc(C(=O)O)o1", "label": "0", "score": "-4.0"}
+"\n"
+{"smiles": "Nc1nc2cc(O)ccc2[nH]1", "label": "0", "score": "-4.5"}
+"\n"
+{"smiles": "Cc1nn(C)c2sc(C(=O)O)cc12", "label": "0", "score": "-2.5"}
+"\n"
+{"smiles": "Nc1ccn([C@@H]2CO[C@H](CO)O2)c(=O)n1", "label": "0", "score": "1.3"}
+"\n"
+{"smiles": "COc1cccc2ncnc(N[C@@H]3C[C@H](CO)[C@@H](O)[C@H]3O)c12", "label": "0", "score": "14.5"}
+"\n"
+{"smiles": "O=[N+]([O-])c1ccc(O)c(O)c1", "label": "0", "score": "-4.9"}
+"\n"
+{"smiles": "COc1ccc(S(=O)(=O)NCC(=O)NO)cc1", "label": "0", "score": "-1.5"}
+"\n"
+{"smiles": "O=c1ccn([C@H]2C[C@H](O)[C@@H](COP(=O)(O)O)O2)c(=O)[nH]1", "label": "0", "score": "10.4"}
+"\n"
+{"smiles": "O=c1[nH]cc(CCc2ccccc2)cc1O", "label": "0", "score": "-4.0"}
+"\n"
+{"smiles": "O=C(NCCc1cccs1)[C@H](O)[C@@H](O)C(=O)N1CCNCC1", "label": "0", "score": "15.7"}
+"\n"
+{"smiles": "O=C1CC(=O)N([C@@H]2O[C@H](COP(=O)(O)O)[C@@H](O)[C@H]2O)C(=O)N1", "label": "0", "score": "2.9"}
+"\n"
+{"smiles": "Nc1nccc2ccccc12", "label": "0", "score": "-5.1"}
+"\n"
+{"smiles": "O=C(O)c1ccccc1O", "label": "0", "score": "-4.7"}
+"\n"
+{"smiles": "O=P(O)(O)C[C@@H]1O[C@H](CO)[C@@H](O)[C@H](O)[C@H]1O", "label": "0", "score": "-2.5"}
+"\n"
+{"smiles": "Cn1cccc1CNCCC1=c2ccccc2=NC1", "label": "0", "score": "-0.7"}
+"\n"
+{"smiles": "Nc1ncnc2c1ncn2C[C@@H](O)[C@@H](O)C(=O)O", "label": "0", "score": "-1.1"}
+"\n"
+{"smiles": "OCCOCCO", "label": "0", "score": "-3.2"}
+"\n"
+{"smiles": "O=C1Cc2ccc(Cl)cc2N1", "label": "0", "score": "-4.0"}
+"\n"
+{"smiles": "OCCOCCOCCOCCOCCO", "label": "0", "score": "-1.9"}
+"\n"
+{"smiles": "CCCN([C@H](C)C(=O)NO)S(=O)(=O)c1ccc(F)c(C)c1", "label": "0", "score": "3.8"}
+"\n"
+{"smiles": "O=P(O)(O)OC[C@H]1O[C@@H](O)[C@H](O)[C@@H](O)[C@@H]1O", "label": "0", "score": "-3.1"}
+"\n"
+{"smiles": "C[C@H](O)[C@@H](CCc1cccc2ccccc12)n1cnc(C(N)=O)c1", "label": "0", "score": "9.8"}
+"\n"
+{"smiles": "OS(O)(O)CCCN1C=CC=CC1", "label": "0", "score": "-4.4"}
+"\n"
+{"smiles": "OC[C@H]1O[C@@H](O[C@H]2[C@H](O)[C@@H](O)[C@@H](O)O[C@@H]2CO)[C@H](O)[C@@H](O)[C@H]1O", "label": "0", "score": "3.1"}
+"\n"
+{"smiles": "O[C@@H](CC1c2ccccc2Sc2ccccc21)CN1CCCC1", "label": "0", "score": "3.3"}
+"\n"
+{"smiles": "N=C(N)c1ccc(NN)cc1", "label": "0", "score": "-2.4"}
+"\n"
+{"smiles": "N[C@H]1CCc2ccccc2CC1(O)O", "label": "0", "score": "-4.2"}
+"\n"
+{"smiles": "FC1=C(F)[C@H]2[C@]3(C(=S)C1)[C@@]14S[C@@H]1CC(F)=C(F)[C@@]243", "label": "0", "score": "1000"}
+"\n"
+{"smiles": "CC(C)[C@H]1SC(Nc2ccccc2F)=NC1=O", "label": "0", "score": "9.0"}
+"\n"
+{"smiles": "OCCOCCOCCOCCOCCO", "label": "0", "score": "-2.0"}
+"\n"
+{"smiles": "NCCc1ccc(O)c(O)c1", "label": "0", "score": "-4.6"}
+"\n"
+{"smiles": "O=C(CP(=O)(O)O)NO", "label": "0", "score": "-4.1"}
+"\n"
+{"smiles": "C=C(O[C@@H]1CC(C(=O)O)=C[C@@H](OP(=O)(O)O)[C@H]1O)C(=O)O", "label": "0", "score": "13.1"}
+"\n"
+{"smiles": "O=C(O)P(=O)(O)O", "label": "0", "score": "-3.8"}
+"\n"
+{"smiles": "C=C(CCCO)CC[C@H](O)CCC", "label": "0", "score": "-3.8"}
+"\n"
+{"smiles": "COc1cc(N)c(C(=O)O)cc1OC", "label": "0", "score": "-2.2"}
+"\n"
+{"smiles": "O=C(O)c1ccc(C(=O)O)o1", "label": "0", "score": "-4.2"}
+"\n"
+{"smiles": "Nc1nc2cc(O)ccc2[nH]1", "label": "0", "score": "-4.5"}
+"\n"
+{"smiles": "Cc1nn(C)c2sc(C(=O)O)cc12", "label": "0", "score": "-2.3"}
+"\n"
+{"smiles": "Nc1ccn([C@@H]2CO[C@H](CO)O2)c(=O)n1", "label": "0", "score": "-0.5"}
+"\n"
+{"smiles": "COc1cccc2ncnc(N[C@@H]3C[C@H](CO)[C@@H](O)[C@H]3O)c12", "label": "0", "score": "14.8"}
+"\n"
+{"smiles": "O=[N+]([O-])c1ccc(O)c(O)c1", "label": "0", "score": "-4.9"}
+"\n"
+{"smiles": "COc1ccc(S(=O)(=O)NCC(=O)NO)cc1", "label": "0", "score": "-0.4"}
+"\n"
+{"smiles": "O=c1ccn([C@H]2C[C@H](O)[C@@H](COP(=O)(O)O)O2)c(=O)[nH]1", "label": "0", "score": "8.2"}
+"\n"
+{"smiles": "O=c1[nH]cc(CCc2ccccc2)cc1O", "label": "0", "score": "-4.2"}
+"\n"
+{"smiles": "O=C(NCCc1cccs1)[C@H](O)[C@@H](O)C(=O)N1CCNCC1", "label": "0", "score": "11.7"}
+"\n"
+{"smiles": "CC1(C)S[C@]23[C@H](NC(=O)CCC[C@H](N)C(=O)O)[C@@]2(O)[C@@H]3[C@H]1C(=O)O", "label": "0", "score": "1000"}
+"\n"
+{"smiles": "O=C1CC(=O)N([C@@H]2O[C@H](COP(=O)(O)O)[C@@H](O)[C@H]2O)C(=O)N1", "label": "0", "score": "10.1"}
+"\n"
+{"smiles": "Nc1nccc2ccccc12", "label": "0", "score": "-5.2"}
+"\n"
+{"smiles": "O=C(O)c1ccccc1O", "label": "0", "score": "-4.7"}
+"\n"
+{"smiles": "O=P(O)(O)C[C@@H]1O[C@H](CO)[C@@H](O)[C@H](O)[C@H]1O", "label": "0", "score": "0.2"}
+"\n"
+{"smiles": "Cn1cccc1CNCCC1=c2ccccc2=NC1", "label": "0", "score": "0.1"}
+"\n"
+{"smiles": "Nc1ncnc2c1ncn2C[C@@H](O)[C@@H](O)C(=O)O", "label": "0", "score": "-0.4"}
+"\n"
+{"smiles": "OCCOCCO", "label": "0", "score": "-3.2"}
+"\n"
+{"smiles": "O=C1Cc2ccc(Cl)cc2N1", "label": "0", "score": "-4.0"}
+"\n"
+{"smiles": "OCCOCCOCCOCCOCCO", "label": "0", "score": "-1.7"}
+"\n"
+{"smiles": "CCCN([C@H](C)C(=O)NO)S(=O)(=O)c1ccc(F)c(C)c1", "label": "0", "score": "2.7"}
+"\n"
+{"smiles": "O=P(O)(O)OC[C@H]1O[C@@H](O)[C@H](O)[C@@H](O)[C@@H]1O", "label": "0", "score": "-4.7"}
+"\n"
+{"smiles": "C[C@H](O)[C@@H](CCc1cccc2ccccc12)n1cnc(C(N)=O)c1", "label": "0", "score": "18.0"}
+"\n"
+{"smiles": "OS(O)(O)CCCN1C=CC=CC1", "label": "0", "score": "-4.3"}
+"\n"
+{"smiles": "O[C@@H](CC1c2ccccc2Sc2ccccc21)CN1CCCC1", "label": "0", "score": "26.6"}
+"\n"
+{"smiles": "N=C(N)c1ccc(NN)cc1", "label": "0", "score": "-3.7"}
+"\n"
+{"smiles": "N[C@H]1CCc2ccccc2CC1(O)O", "label": "0", "score": "-5.7"}
+"\n"
+{"smiles": "FC1=C(F)[C@H]2[C@]3(C(=S)C1)[C@@]14S[C@@H]1CC(F)=C(F)[C@@]243", "label": "0", "score": "1000"}
+"\n"
+{"smiles": "CC(C)[C@H]1SC(Nc2ccccc2F)=NC1=O", "label": "0", "score": "10.6"}
+"\n"
+{"smiles": "OCCOCCOCCOCCOCCO", "label": "0", "score": "-1.7"}
+"\n"
+{"smiles": "NCCc1ccc(O)c(O)c1", "label": "0", "score": "-4.6"}
+"\n"
+{"smiles": "O=C(CP(=O)(O)O)NO", "label": "0", "score": "-4.0"}
+"\n"
