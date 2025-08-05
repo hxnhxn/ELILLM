@@ -141,6 +141,7 @@ class BayesianLLM:
         inputs = model_inputs['input_ids'].to(self.device)
         attention_mask = model_inputs['attention_mask'].to(self.device)
         st_time = time.time()
+        # get the position of SMILES string
         smiles_index_list = divide_smiles_from_tokens(self.tokenizer.decode(inputs[0]), inputs, self.tokenizer)
         begin, end = smiles_index_list
 
@@ -173,10 +174,14 @@ class BayesianLLM:
         # self.acquisition_function.update(maxy)
         predict_st_time = time.time()
         # scores_pre = self.acquisition_function.EI(smiles_avg_embed_list).squeeze()
+
+        # surrogate predict and get acquition function value
         scores_pre, mu, std = self.acquisition_function.LCB(smiles_avg_embed_list, len(self.dataset)+1)
         scores_pre, mu, std = scores_pre.squeeze(), mu.squeeze(), std.squeeze()
         # print(f"predict_time: {time.time() - predict_st_time}s")
         # best_id = torch.argmax(scores_pre, dim=0)
+
+        # select Zcand
         top_value, top_id = torch.topk(scores_pre, k=num_perturbation, largest=False)
         embedding = embedding.to(self.device)
         perturbation_embeddings = []
@@ -189,6 +194,7 @@ class BayesianLLM:
 
         del smiles_avg_embed_list, smiles_embed_list
         torch.cuda.empty_cache()
+        # decode Zcand to get Scand
         perturbation_smileses = []
         for i in range(num_perturbation):
             with torch.no_grad():
@@ -221,50 +227,4 @@ class BayesianLLM:
 
     def train_surrogate(self):
         self.surrogate.update_gp(self.dataset, self.normalizer, self.epoch_mlp, self.lr_mlp, self.epoch_gp, self.lr_gp)
-
-    # def train_judger(self, epochs=150, batch_size=64, learning_rate=0.001, weight_decay=0.001):
-    #     """
-    #     surrogate: 神经网络模型
-    #     dataset: 训练数据集，应该是 Program_embedding_dataset 类型的实例
-    #     epochs: 训练的轮数
-    #     batch_size: 每个批次的数据量
-    #     learning_rate: 学习率
-    #     """
-    #     dataset = self.judge_dataset
-    #     judger = self.judger
-    #     device = self.device
-    #     # 使用 DataLoader 加载数据
-    #     with torch.no_grad():
-    #         judger.reinitialize_weights_he()
-    #
-    #     # 定义损失函数和 Adam 优化器
-    #     criterion = nn.CrossEntropyLoss()  # 使用均方误差损失
-    #     optimizer = optim.Adam(judger.parameters(), lr=learning_rate, weight_decay=weight_decay)  # 使用Adam优化器
-    #     dataloader = DataLoader(dataset, batch_size=batch_size, shuffle=True)
-    #     # 开始训练循环
-    #     for epoch in range(epochs):
-    #         running_loss = 0.0
-    #
-    #         for embeddings, labels in dataloader:
-    #             optimizer.zero_grad()
-    #             embeddings = embeddings.to(device)
-    #             # 前向传播
-    #             outputs = judger(embeddings).squeeze()
-    #             labels = labels.to(device,torch.long).squeeze()
-    #             # 计算损失
-    #             loss = criterion(outputs, labels)
-    #
-    #             # 反向传播
-    #             loss.backward()
-    #             # 更新权重
-    #             optimizer.step()
-    #             # with torch.no_grad():
-    #             running_loss += loss.item()
-    #             pass
-    #             # 累计损失
-    #
-    #         # 打印每个 epoch 的平均损失
-    #     print(f"Epoch [{epoch + 1}/{epochs}], Loss: {running_loss / len(dataloader):.4f}")
-    #     print("判别模型训练完成")
-    #     return running_loss / len(dataloader)
 

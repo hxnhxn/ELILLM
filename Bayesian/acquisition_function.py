@@ -23,6 +23,7 @@ class AcquisitionFunction:
     #     return result
 
     # Minimize optimization
+    # Follow GP-UCB
     def LCB(self, x, t, delta = 0.1):
         mu, std = self.surrogate.batch_predict(x)
         beta_t = 2 * np.log(t ** 2 * np.pi ** 2 / (6 * delta))

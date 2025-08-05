@@ -4,7 +4,6 @@ import numpy as np
 from torch.utils.data import Dataset
 
 
-# 定义 BayesianDataset 数据集类
 class BayesianDataset(Dataset):
 
     def __init__(self, smiles=None, embeddings=None, scores=None):
