@@ -45,7 +45,7 @@ def calculate_sascore(mol):
         m = Chem.MolFromSmiles(mol)
         sa_score = sascorer.calculateScore(m)
 
-        return (10-sa_score)/10
+        return (10-sa_score)/9
     except:
         return None
 def calculate_qed_score(smiles):
